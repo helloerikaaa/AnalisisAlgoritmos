@@ -16,6 +16,15 @@ Cada clase, el repositorio se va a actualizar con el contenido que se haya visto
 git pull
 ```
 
+## Instalación de librerías
+En algunos de los códigos vistos en clase se utilizan algunas librerías
+para instalarlas, se deben ejecutar los siguientes comandos:
+```bash
+pip install matplotlib
+```
+```bash
+pip install numpy
+```
 ## Ejecución de scripts de Python
 Para ejecutar cualquiera de los archivos que vamos a estar generando durante el curso, se debe usar el siguiente comando:
 ```bash
@@ -23,4 +32,13 @@ python nombre_archivo.py
 ```
 
 ## Contenido
-* Tiempo de ejecución
+### Complejidad Computacional
+* [Tiempo de ejecución](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Complejidad_Computacional/analisis_tiempo.py)
+* [Crecimiento Asintótico](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Complejidad_Computacional/crecimiento_asintotico.py)
+### Algoritmos Iterativos
+* [Fibonacci](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Algoritmos_Iterativos/fibonacci_iterativo.py)
+* [Factorial](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Algoritmos_Iterativos/factorial_iterativo.py)
+
+### Algoritmos Recursivos
+* [Fibonacci](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Algoritmos_Recursivos/fibonacci_recursivo.py)
+* [Factorial](https://github.com/helloerikaaa/AnalisisAlgoritmos3CM1/blob/main/Algoritmos_Recursivos/factorial_recursivo.py)

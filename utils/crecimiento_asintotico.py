@@ -10,6 +10,7 @@
 
 # Librería para creación de datos (rangos, arreglos, matrices)
 import numpy as np
+
 # Librería para hacer gráficas
 import matplotlib.pyplot as plt
 
@@ -29,18 +30,18 @@ tiempo_cuadratico = n**2
 
 # Crear la figura con todas las gráficas
 plt.figure(figsize=(10, 6))
-plt.plot(n, tiempo_constante, label='O(1)', color='red')
-plt.plot(n, tiempo_logaritmico, label='O(log n)', color='green')
-plt.plot(n, tiempo_lineal, label='O(n)', color='blue')
-plt.plot(n, tiempo_n_log_n, label='O(n log n)', color='purple')
-plt.plot(n, tiempo_cuadratico, label='O(n^2)', color='orange')
+plt.plot(n, tiempo_constante, label="O(1)", color="red")
+plt.plot(n, tiempo_logaritmico, label="O(log n)", color="green")
+plt.plot(n, tiempo_lineal, label="O(n)", color="blue")
+plt.plot(n, tiempo_n_log_n, label="O(n log n)", color="purple")
+plt.plot(n, tiempo_cuadratico, label="O(n^2)", color="orange")
 
 # Agrega texto al eje x
-plt.xlabel('Tamaño de la entrada (n)')
+plt.xlabel("Tamaño de la entrada (n)")
 # Agrega texto al eje y
-plt.ylabel('Tiempo de ejecución')
+plt.ylabel("Tiempo de ejecución")
 # Agrega el título de la gráfica
-plt.title('Comparación de Órdenes Asintóticos de Análisis')
+plt.title("Comparación de Órdenes Asintóticos de Análisis")
 # Agrega la leyenda de la gráfica
 plt.legend()
 # Muestra líneas en el gráfico

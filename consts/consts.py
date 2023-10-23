@@ -12,8 +12,8 @@ class Busqueda(EnumConstant):
 
 
 class Ordenamiento(EnumConstant):
-    BURBUJA = "burbuja"
-    BURBUJAOPT = "burbuja_optimizada"
+    BURBUJA = "bubblesort"
+    BURBUJAOPT = "bubblesort_opt"
     MERGESORT = "mergesort"
     QUICKSORT = "quicksort"
 

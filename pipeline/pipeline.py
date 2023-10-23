@@ -1,4 +1,10 @@
-from consts.consts import Ordenamiento, Busqueda, Iteracion, Recursividad
-from algoritmos.ordenamiento.mergesort import merge_sort
+from consts.consts import Ordenamiento
+from algoritmos.ordenamiento.mergesort import mergesort
+from algoritmos.ordenamiento.quicksort import quicksort
+from algoritmos.ordenamiento.bubblesort import bubblesort
 
-ALGORITMOS = {Ordenamiento.MERGESORT: merge_sort}
+ALGORITMOS = {
+    Ordenamiento.MERGESORT: mergesort,
+    Ordenamiento.BURBUJA: bubblesort,
+    Ordenamiento.QUICKSORT: quicksort,
+}

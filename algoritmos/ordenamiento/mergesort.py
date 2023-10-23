@@ -1,7 +1,7 @@
-import numpy as np
+from typing import List
 
 
-def merge_sort(datos):
+def mergesort(datos: List) -> List:
     n = len(datos)
     if n == 1:
         return datos
@@ -10,13 +10,13 @@ def merge_sort(datos):
     izq = datos[:mitad]
     der = datos[mitad:]
 
-    izq = merge_sort(izq)
-    der = merge_sort(der)
+    izq = mergesort(izq)
+    der = mergesort(der)
 
     return _merge(izq, der)
 
 
-def _merge(izq, der) -> np.array:
+def _merge(izq: List, der: List) -> List:
     datos_ordenados = []
     i_izq, i_der = 0, 0
 

@@ -34,8 +34,12 @@ def main(algoritmo: str) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-a', '--algoritmo', help='Nombre del algoritmo de ordenamiento')
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+    parser.add_argument(
+        "-a", "--algoritmo", help="Nombre del algoritmo de ordenamiento"
+    )
     args = parser.parse_args()
 
     main(args.algoritmo)

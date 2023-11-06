@@ -51,16 +51,3 @@ def heapsort_timing_analysis():
         execution_times.append(execution_time)
 
     return input_sizes, execution_times
-
-def plot_complexity(input_sizes, execution_times):
-    plt.figure(figsize=(8, 6))
-    plt.plot(input_sizes, execution_times, marker='o', linestyle='-')
-    plt.title('Heapsort Time Complexity Analysis')
-    plt.xlabel('Input Size')
-    plt.ylabel('Execution Time (seconds)')
-    plt.grid(True)
-    plt.show()
-
-if __name__ == "__main__":
-    input_sizes, execution_times = heapsort_timing_analysis()
-    plot_complexity(input_sizes, execution_times)

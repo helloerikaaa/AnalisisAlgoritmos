@@ -10,7 +10,7 @@ from utils.utils import generar_arreglo
 
 
 def crear_experimento(n: int, algoritmo: str) -> float:
-    logger.info(f"Ejecutando el algortimo {algoritmo}")
+    logger.info(f"Ejecutando el algortimo {algoritmo} con n={n}")
     datos = generar_arreglo(n)
     start_time = time.time()
     pipeline.ALGORITMOS[Ordenamiento(algoritmo)](datos)

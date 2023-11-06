@@ -1,4 +1,5 @@
 from consts.consts import Ordenamiento
+from algoritmos.ordenamiento.heapsort import heapsort
 from algoritmos.ordenamiento.mergesort import mergesort
 from algoritmos.ordenamiento.quicksort import quicksort
 from algoritmos.ordenamiento.bubblesort import bubblesort
@@ -11,4 +12,5 @@ ALGORITMOS = {
     Ordenamiento.QUICKSORT: quicksort,
     Ordenamiento.INSERCION: insertionsort,
     Ordenamiento.SELECCION: selectionsort,
+    Ordenamiento.HEAPSORT: heapsort,
 }

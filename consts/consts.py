@@ -18,6 +18,7 @@ class Ordenamiento(EnumConstant):
     QUICKSORT = "quicksort"
     SELECCION = "selectionsort"
     INSERCION = "insertionsort"
+    HEAPSORT = "heapsort"
 
 
 class Iteracion(EnumConstant):

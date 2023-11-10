@@ -4,7 +4,10 @@ import enum
 class EnumConstant(enum.Enum):
     def __str__(self):
         return self.value
+
+
 76
+
 
 class Busqueda(EnumConstant):
     LINEAL = "lineal"
@@ -22,11 +25,11 @@ class Ordenamiento(EnumConstant):
 
 
 class Iteracion(EnumConstant):
-    FIBO = "fibonacci"
-    FACT = "fact"
+    FIBO = "fibonacci_iter"
+    FACT = "factorial_iter"
 
 
 class Recursividad(EnumConstant):
-    FIBO = "fibonacci"
-    FACT = "fact"
+    FIBO = "fibonacci_rec"
+    FACT = "factorial_rec"
     FFT = "fft"

@@ -6,12 +6,9 @@ class EnumConstant(enum.Enum):
         return self.value
 
 
-76
-
-
 class Busqueda(EnumConstant):
-    LINEAL = "lineal"
-    BINARIA = "binaria"
+    LINEAL = "lineal_search"
+    BINARIA = "binary_search"
 
 
 class Ordenamiento(EnumConstant):
@@ -33,3 +30,9 @@ class Recursividad(EnumConstant):
     FIBO = "fibonacci_rec"
     FACT = "factorial_rec"
     FFT = "fft"
+
+
+class Greedy(EnumConstant):
+    MONEDAS = "cambio_monedas"
+    MOCHILA_FRAC = "mochila_fraccionaria"
+    HUFFMAN = "huffman"
